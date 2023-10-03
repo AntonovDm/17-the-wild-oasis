@@ -45,7 +45,7 @@ function CabinTable() {
       {cabins.map((cabin) => (
         <CabinRow
           cabin={cabin}
-          key={cabin.key}
+          key={cabin.id}
         />
       ))}
     </Table>
