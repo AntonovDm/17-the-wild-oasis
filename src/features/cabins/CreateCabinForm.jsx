@@ -30,7 +30,7 @@ function CreateCabinForm({ cabinToUpdate = {}, onCloseModal }) {
       updateCabin(
         { newCabinData: { ...data, image }, id: updateId },
         {
-          onSuccsess: (data) => {
+          onSuccess: (data) => {
             reset()
             onCloseModal?.()
           },
@@ -40,7 +40,7 @@ function CreateCabinForm({ cabinToUpdate = {}, onCloseModal }) {
       createCabin(
         { ...data, image: image },
         {
-          onSuccsess: (data) => {
+          onSuccess: (data) => {
             reset()
             onCloseModal?.()
           },
