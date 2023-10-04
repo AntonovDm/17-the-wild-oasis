@@ -10,6 +10,7 @@ import Users from './pages/Users'
 import Settings from './pages/Settings'
 import Account from './pages/Account'
 import Login from './pages/Login'
+import Booking from './pages/Booking'
 import PageNotFound from './pages/PageNotFound'
 import AppLayout from './ui/AppLayout'
 import { Toaster } from 'react-hot-toast'
@@ -47,6 +48,10 @@ function App() {
             <Route
               path="bookings"
               element={<Bookings />}
+            />
+            <Route
+              path="bookings/:bookingId"
+              element={<Booking />}
             />
             <Route
               path="cabins"
