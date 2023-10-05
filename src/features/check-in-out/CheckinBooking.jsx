@@ -13,7 +13,7 @@ import { useEffect, useState } from 'react'
 import { useMoveBack } from '../../hooks/useMoveBack'
 import { useBooking } from '../bookings/useBooking'
 import { formatCurrency } from '../../utils/helpers'
-import { useCheckin } from './useChekin'
+import { useCheckin } from './useCheckin'
 import { useSettings } from '../settings/useSettings'
 
 const Box = styled.div`
