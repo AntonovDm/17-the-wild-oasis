@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
-const GlobalStylea = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
 :root {
 
 &, &.light-mode {
@@ -188,4 +188,4 @@ img {
 
 `
 
-export default GlobalStylea
+export default GlobalStyles
