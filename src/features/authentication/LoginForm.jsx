@@ -4,12 +4,11 @@ import Form from '../../ui/Form'
 import Input from '../../ui/Input'
 import SpinnerMini from '../../ui/SpinnerMini'
 import FormRowVertical from '../../ui/FormRowVertical'
-import { login } from '../../services/apiAuth'
 import { useLogin } from './useLogin'
 
 function LoginForm() {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
+  const [email, setEmail] = useState('demo@gmail.com')
+  const [password, setPassword] = useState('12345678')
   const { login, isLoading } = useLogin()
 
   function handleSubmit(e) {
