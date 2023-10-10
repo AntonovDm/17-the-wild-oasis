@@ -2,7 +2,7 @@
 
 Main project in Jonas Schmedtmann's Ultimate React Course.
 
-[Ссылка на демо-проект](https://the-wild-oasis-antonov.vercel.app/)
+[Demo project](https://the-wild-oasis-antonov.vercel.app/)
 
 ## Stack
 
